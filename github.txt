@@ -1,0 +1,16 @@
+…or create a new repository on the command line
+echo "# React-Calculator-App" >> README.md
+git init
+git add .
+git commit -m "Calculator !st commit"
+git branch -M main
+git remote add origin https://github.com/Gourab-hub/React-Calculator-App.git
+git push -u origin main
+
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Gourab-hub/React-Calculator-App.git
+git branch -M main
+git push -u origin main
