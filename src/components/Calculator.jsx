@@ -15,6 +15,7 @@ const Calculator = () => {
         try {
             setVal(eval(val));
         } catch (error) {
+            setVal("Error")
             
         }
     }
